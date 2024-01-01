@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.Body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.CenterDisplay{
+  height: 40vh;
+  width: 50vw;
+  text-align: center;
+}
+h1{
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+
+}
+h2{
+  font-size: 5em;
+  font-weight: 500;
+}
+
+.Button {
+  margin: 8px;
+  align-items: center;
+  font-weight: 1000;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  font-size: 18px;
+}
+
+.Button:hover {
+  transform: translateY(-2px);
+}
+
+.Dec{
+  background-image: radial-gradient(100% 100% at 100% 0, #def956bb 0, #e4f80c 100%);
+}
+
+.Dec:active {
+  box-shadow: #afad12 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.Res{
+  background-image: radial-gradient(100% 100% at 100% 0, #ff5a5a 0, #ff0000 100%);
+}
+.Res:active {
+  box-shadow: #e64c4c 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.Inc{
+  background-image: radial-gradient(100% 100% at 100% 0, #3bf351 0, #1aff00 100%);
+}
+.Inc:active {
+  box-shadow: #6be64c 0 3px 7px inset;
+  transform: translateY(2px);
+}
